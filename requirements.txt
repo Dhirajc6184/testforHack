@@ -4,4 +4,5 @@ django-cors-headers>=4.3
 PyJWT>=2.8
 argon2-cffi>=23.1
 opencv-python-headless>=4.8
-numpy>=1.24 openai-whisper>=20231117
+numpy>=1.24 
+openai-whisper>=20231117
