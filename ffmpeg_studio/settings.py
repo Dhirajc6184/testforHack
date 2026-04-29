@@ -1,14 +1,14 @@
 import os
 from pathlib import Path
-from datetime import timedelta
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.environ.get("SECRET_KEY", "your-local-dev-fallback")
-JWT_SECRET_KEY = os.environ.get("JWT_SECRET_KEY", "your-local-jwt-fallback")
-DEBUG = False
+SECRET_KEY = os.environ.get("SECRET_KEY", "fallback-dev-secret-key-123")
+JWT_SECRET_KEY = os.environ.get("JWT_SECRET_KEY", "fallback-jwt-secret-123")
 
-ALLOWED_HOSTS = ["*"]
+DEBUG = os.environ.get("DEBUG", "False") == "True"
+
+ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "localhost,.onrender.com").split(",")
 
 INSTALLED_APPS = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
