@@ -6,4 +6,5 @@ argon2-cffi>=23.1
 opencv-python-headless>=4.8
 numpy>=1.24 
 openai-whisper>=20231117
-gunicorn
+gunicorn>=21.2
+whitenoise>=6.6
