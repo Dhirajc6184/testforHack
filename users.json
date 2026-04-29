@@ -1,0 +1,53 @@
+{
+  "demo": {
+    "username": "demo",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$EwqRNWmf7Zgy0ZO43whkWg$6VAR+fjQ/ADts56YZ/jDyQD1FBxODPTsmQPyjhG3zoQ"
+  },
+  "dev": {
+    "username": "dev",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$Hk3jAeMqotJ3JQmvvuaDmg$+s6WciKF9wSGfe99cc9dS9MQaLa10o/EmQuxriuBLEs"
+  },
+  "gk123": {
+    "username": "gk123",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$VnOW5FmwHeQ2vFAhoDnUag$BuBzHe+uaI19rG4Ul8xkcy18xMnliefbnP0bQBPZopk"
+  },
+  "dhiraj": {
+    "username": "dhiraj",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$zja6+0E4HjlCcRb/T1W9Iw$Q2xn4MK+H3Hp65nKIOKAvUBvL6a5A4PCFFAab9aT//s"
+  },
+  "wwww": {
+    "username": "wwww",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$tye1e8u4w9kpWBJseXuR2A$jY+G1o1Qlm8dj/9SqjyrGsCbr3u3b0MHDVX39rrJ0Kk",
+    "role": "editor"
+  },
+  "gggg": {
+    "username": "gggg",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$whO94OTxlS4DEaA8H144iA$hCjWCTWp2kQi49ApS81K4TaCKgayNUzj5bQYodnswM8",
+    "role": "viewer"
+  },
+  "sssss": {
+    "username": "sssss",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$6FC7xhz59AG5l3vyH2RygQ$NDtDE1m58g2yeLWmwysxTOFhtR1CXaJEZ9bY33ke5HE",
+    "role": "editor"
+  },
+  "ggyu": {
+    "username": "ggyu",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$Yj7JOBu0lAJmP/Z5Q5Xucg$plEyMWuu163JJVcw5vI6Jm7mXv5O3X84KDByx4ftYbM",
+    "role": "editor"
+  },
+  "ssss": {
+    "username": "ssss",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$rnC9+ILJJJ6AIfAnr1IrtQ$PpWyQdxwttXRZ/7R7V2p3IFm1ANL9ftNVXDDvc1j5iY",
+    "role": "editor"
+  },
+  "wwww22": {
+    "username": "wwww22",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$gFiHBtItHPXopYPXJFAccg$Jq04e7EgGZgF6MSHyk4Jf8knSunpJjaV+85MIGeW05c",
+    "role": "editor"
+  },
+  "dc1": {
+    "username": "dc1",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$5SioFqITnAQBoFxCO7mrpA$LeEXcOm/V5f4oh3rRRk3s4aE3W+j8jfPqjSmbWCVFYE",
+    "role": "editor"
+  }
+}
